@@ -1,0 +1,106 @@
+body {
+
+  font-family: "Exo", sans-serif;
+ }
+
+.btn,
+a.readmore {
+  background-color: #0098A4;
+}
+.btn:hover,
+a.readmore:hover {
+  background-color: #99d700;
+}
+.jm-module.green .btn {
+  background-color: #FFA200 !important;
+}
+.jm-module.green .btn:hover {
+  background-color: #ffb533 !important;
+}
+.nav.menu > li.active > a {
+  background-color: #0098A4;
+}
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  background: #0098A4;
+}
+table thead tr th {
+  background: #0098A4;
+}
+div.pagination li span.pagenav,
+div.pagination li a:hover {
+  background: #0098A4;
+}
+.pager li > a:hover,
+.pager li > span:hover {
+  background: #0098A4;
+}
+.accordion-heading .accordion-toggle:hover,
+.accordion-heading .accordion-toggle.active {
+  background: #0098A4;
+}
+.pane-sliders div.panel h3.title:hover,
+.pane-sliders div.panel h3.title.pane-toggler-down {
+  background: #0098A4;
+}
+.nav-tabs {
+  border-bottom: 3px solid #0098A4;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active a,
+.nav-tabs > li.active a:hover {
+  background: #0098A4;
+}
+dl.tabs {
+  border-bottom: 3px solid #0098A4;
+}
+dl.tabs dt.tabs.open {
+  background: #0098A4;
+}
+dl.tabs dt.tabs:hover {
+  background: #0098A4;
+}
+a {
+  color: #0098A4;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #0098A4;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #99d700;
+}
+ul.jm-linked li {
+  background-image: url("../images/style2/linked.png");
+}
+ul.jm-linked li:hover {
+  background-image: url("../images/style2/linked_hover.png");
+}
+body .djf_mod .djf_pag span.active,
+body .djf_mod .djf_pag span:hover {
+  background-color: #0098A4 !important;
+}
+body .green .djf_mod .djf_pag span.active,
+body .green .djf_mod .djf_pag span:hover {
+  background-color: #FFA200 !important;
+}
+.djslider .slide-desc-text .slide-title,
+.djslider .slide-desc-text .slide-title a {
+  color: #0098A4;
+}
+.djslider .slide-desc-text .slide-title:hover,
+.djslider .slide-desc-text .slide-title a:hover {
+  color: #99d700;
+}

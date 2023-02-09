@@ -1,0 +1,54 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 24 Jan 2023 13:53:08 at https://agadirjourney.com/index.php/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f0#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F  -%l "en, *" https://agadirjourney.com/index.php/ -O1 "C:\My Web Sites\agdir" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:57:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://agadirjourney.com/images/pics/Slide-show/ouarzazate.jpg (from https://agadirjourney.com/index.php/)
+13:57:43	Warning: 	Retry after error -4 (No data (connection closed)) at link https://agadirjourney.com/images/10/SMALL.jpg (from https://agadirjourney.com/index.php/)
+13:57:54	Error: 	"Not Found" (404) at link https://cdn.ek.aero/ma/french/images/GYG_275_tcm389-4919533.png (from https://agadirjourney.com/index.php/)
+13:57:54	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zilliondesigns.com/blog/wp-content/uploads/Airbnb-Logo-Contest.png (from https://agadirjourney.com/index.php/)
+13:57:54	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursion/valley-paradise-agadir?id=78 (from https://agadirjourney.com/index.php/)
+13:57:59	Warning: 	Moved Permanently for https://agadirjourney.com/index.php/en/
+13:57:59	Warning: 	File has moved from https://agadirjourney.com/index.php/en/ to https://agadirjourney.com/index.php/
+13:57:59	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/fr/excursion/agadir-visit (from https://agadirjourney.com/index.php/fr/)
+13:57:59	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/fr/excursion/excursion-marrakech (from https://agadirjourney.com/index.php/fr/)
+13:57:59	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/fr/excursion/essaouira-excursion (from https://agadirjourney.com/index.php/fr/)
+13:57:59	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/fr/excursion/valley-paradise-agadir?id=78 (from https://agadirjourney.com/index.php/fr/)
+13:58:00	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/fr/agadir-journey/sitemap (from https://agadirjourney.com/index.php/agadir-journey/sitemap)
+13:58:08	Warning: 	Link https://agadirjourney.com/index.php/rental-appart?tmpl=component&print=1 not scanned (follow robots meta tag)
+13:58:09	Warning: 	Link https://agadirjourney.com/index.php/excursion/essaouira-excursion?tmpl=component&print=1 not scanned (follow robots meta tag)
+13:58:09	Error: 	"Not Found" (404) at link https://agadirjourney.com/images/10/surf.jpg (from https://agadirjourney.com/index.php/other-touristic-activites)
+13:58:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://agadirjourney.com/images/pics/go-discover/Agadir-Journey1.jpg (from https://agadirjourney.com/index.php/other-touristic-activites/berber-evening-show-2)
+13:58:09	Warning: 	Retry after error -4 (No data (connection closed)) at link https://agadirjourney.com/cache/widgetkit/gallery/35/Agadir-Journey1-e5005e55ac.jpg (from https://agadirjourney.com/index.php/other-touristic-activites/berber-evening-show-2)
+13:58:12	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.zilliondesigns.com/blog/wp-content/uploads/Airbnb-Logo-Contest.png (from https://agadirjourney.com/index.php/)
+13:58:12	Error: 	"Error when decompressing" (-1) at link https://agadirjourney.com/index.php/tours-2 (from https://agadirjourney.com/index.php/tours-2?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/agadir-transfert (from https://agadirjourney.com/index.php/agadir-transfert?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/agadir-visit-1-2-journee (from https://agadirjourney.com/index.php/excursions-maroc/agadir-visit-1-2-journee?lang=fr)
+13:58:12	Error: 	"Error when decompressing" (-1) at link https://agadirjourney.com/index.php/autres-activites (from https://agadirjourney.com/index.php/autres-activites?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/autres-activites/balade-dromadaire-cheval-agadir (from https://agadirjourney.com/index.php/autres-activites/balade-dromadaire-cheval-agadir?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/autres-activites/pack4-go-out (from https://agadirjourney.com/index.php/autres-activites/pack4-go-out?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/tours-2/circuit-ouarzazate-2jours (from https://agadirjourney.com/index.php/tours-2/circuit-ouarzazate-2jours?lang=fr)
+13:58:12	Error: 	"Error when decompressing" (-1) at link https://agadirjourney.com/index.php/excursions-maroc (from https://agadirjourney.com/index.php/excursions-maroc?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/agadir-journey/excursion-circuits (from https://agadirjourney.com/index.php/agadir-journey/excursion-circuits?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/cascade-imouzer-agadir (from https://agadirjourney.com/index.php/excursions-maroc/cascade-imouzer-agadir?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/excursion-essaouira (from https://agadirjourney.com/index.php/excursions-maroc/excursion-essaouira?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/vallee-paradis-agadir (from https://agadirjourney.com/index.php/excursions-maroc/vallee-paradis-agadir?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/excursion-marrakech (from https://agadirjourney.com/index.php/excursions-maroc/excursion-marrakech?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/ouarzazate-excursion (from https://agadirjourney.com/index.php/excursions-maroc/ouarzazate-excursion?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/excursion-tafraoute (from https://agadirjourney.com/index.php/excursions-maroc/excursion-tafraoute?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/taroudant-tiout-excursion (from https://agadirjourney.com/index.php/excursions-maroc/taroudant-tiout-excursion?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/autres-activites/massage-spa-agadir (from https://agadirjourney.com/index.php/autres-activites/massage-spa-agadir?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/excursion-massa-petit-desert-jour (from https://agadirjourney.com/index.php/excursions-maroc/excursion-massa-petit-desert-jour?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/autres-activites/nos-vehicles-agadir (from https://agadirjourney.com/index.php/autres-activites/nos-vehicles-agadir?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/autres-activites/soiree-berbere (from https://agadirjourney.com/index.php/autres-activites/soiree-berbere?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/tours-2/2-jours-desert (from https://agadirjourney.com/index.php/tours-2/2-jours-desert?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/excursions-maroc/excursion-taroudant-demi-journee (from https://agadirjourney.com/index.php/excursions-maroc/excursion-taroudant-demi-journee?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/agadir-journey/agadir-transfert (from https://agadirjourney.com/index.php/agadir-journey/agadir-transfert?lang=fr)
+13:58:12	Error: 	"Not Found" (404) at link https://agadirjourney.com/index.php/tours-2/ville-imperiales-2j (from https://agadirjourney.com/index.php/tours-2/ville-imperiales-2j?lang=fr)
+13:58:13	Error: 	"No data (connection closed)" (-4) after 2 retries at link https://www.zilliondesigns.com/blog/wp-content/uploads/Airbnb-Logo-Contest.png (from https://agadirjourney.com/index.php/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 4 seconds : 937 links scanned, 896 files written (57055078 bytes overall) [51242005 bytes received at 168559 bytes/sec], 8043536 bytes transferred using HTTP compression in 257 files, ratio 23%, 18.2 requests per connection
+(33 errors, 10 warnings, 0 messages)

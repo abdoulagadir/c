@@ -1,0 +1,215 @@
+/*--------------------------------------------------------------
+# Copyright (C) joomla-monster.com
+# License: http://www.joomla-monster.com/license.html Joomla-Monster Proprietary Use License
+# Website: http://www.joomla-monster.com
+# Support: info@joomla-monster.com
+---------------------------------------------------------------*/
+
+/*********************** DJ-MENU STYLES ***********************/
+
+.dj-main {
+	margin: 0;  
+	position: relative; 
+	z-index: 500; 
+	width: auto;
+    
+	height: 47px;
+}
+
+.dj-main li.dj-up {
+	display: block;
+	float: left;
+	position: relative; 
+	padding: 0;
+	background: none;
+}
+
+.dj-main li a.dj-up_a {
+	display: block;
+	float: left; 
+	text-decoration: none; 
+	padding: 0 20px;
+	cursor: pointer;
+	background: #fff;
+	
+	line-height: 43px;
+	border-left: 2px solid #ccc;
+	border-bottom: 4px solid #ccc;
+}
+
+.dj-main li.first a.dj-up_a {
+	border-left: none;
+}
+
+.dj-main li a.dj-up_a span {
+	display: block;
+  
+}
+
+.dj-main li:hover a.dj-up_a, 
+.dj-main li.active a.dj-up_a {
+	-webkit-transition: background 0.2s ease-in;
+	-moz-transition: background 0.2s ease-in;
+	-o-transition: background 0.2s ease-in;
+	transition: background 0.2s ease-in;
+	background: #dcdcdc;
+  
+}
+
+.dj-main li.first a.dj-up_a {
+	border-radius: 6px 0 0 6px;
+	-moz-border-radius: 6px 0 0 6px;
+	-webkit-border-radius: 6px 0 0 6px;	
+}
+
+.dj-main li.last a.dj-up_a {
+	border-radius: 0 6px 6px 0;
+	-moz-border-radius: 0 6px 6px 0;
+	-webkit-border-radius: 0 6px 6px 0;	
+}
+
+.dj-main li.separator > a {
+    cursor: default;
+  
+}
+
+.dj-main li span.image-title {
+	background: none;
+	padding: 0 0 0 10px;
+	display: inline;
+	vertical-align: middle;
+}
+
+.dj-main img {
+	border: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+/* Default list styling */
+
+.dj-main li:hover {
+   	position: relative;
+    z-index: 200;
+  
+}
+
+x:-o-prefocus, .dj-main li.hover ul.dj-submenu {
+	border: 1px solid transparent; /** opera fix **/
+}
+
+.dj-main li:hover ul.dj-submenu {
+    left: 0; 
+	top: 52px; 
+	padding: 0; 
+	width: 220px; 
+	height: auto;
+	z-index: 300;
+	background: #fff;
+	border-bottom: 4px solid #ccc;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+	box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+ 
+}
+
+.dj-main li:hover ul.dj-submenu li {
+	display: block; 
+	height: auto; 
+	position: relative; 
+	float: left; 
+	width: 220px; 
+	font-weight: normal;
+	padding: 0;
+	background: none;
+	border-top: 2px solid #ccc;
+  
+}
+
+.dj-main li:hover ul.dj-submenu li.first {
+	border: none;
+  
+}
+
+.dj-main li:hover ul.dj-submenu li.first li > a {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+  
+}
+
+.dj-main li:hover ul.dj-submenu li.first > a {
+	border-radius: 6px 6px 0 0;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+  
+}
+
+.dj-main li:hover ul.dj-submenu li a {
+  	display: block; 
+	font-size: 1.3em;
+	line-height: 1.2em;
+	height: auto; 
+	text-decoration: none;
+	background: none;
+	padding: 10px 22px;
+	text-align: left;
+	
+}
+
+.dj-main li ul.dj-submenu li a.dj-more {
+     background: url("../images/djmenu_more.png") 200px center no-repeat;
+}
+
+.dj-main li:hover ul.dj-submenu li a:hover, 
+.dj-main li ul.dj-submenu li > a.active {
+	background: #dcdcdc;
+	-webkit-transition: background 0.2s ease-in;
+	-moz-transition: background 0.2s ease-in;
+	-o-transition: background 0.2s ease-in;
+	transition: background 0.2s ease-in;
+ 
+}
+
+.dj-main li:hover li:hover > a.dj-more,
+.dj-main li:hover ul.dj-submenu li a.dj-more:hover,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active,
+.dj-main li:hover ul.dj-submenu li a.dj-more-active:hover {
+    background: #dcdcdc url("../images/djmenu_more.png") 200px center no-repeat;
+}
+
+.dj-main li:hover li:hover > ul {
+    left: 225px; 
+	top: 0; 
+	width: 220px;
+	padding: 0;
+	margin: 0; 
+	z-index: 400; 
+	height: auto;
+	background: #fff;
+	border-bottom: 4px solid #ccc;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+	box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 1);
+ 
+}
+
+.dj-main ul,
+.dj-main li:hover > ul ul {
+    position: absolute; 
+	left: -9999px;
+	top: -9999px; 
+	width: 0; 
+	height: 0;  
+  
+}
+
+.dj-main li:hover li:hover > li > a.dj-more {
+    background: url("../images/djmenu_more.png") 200px center no-repeat;
+}

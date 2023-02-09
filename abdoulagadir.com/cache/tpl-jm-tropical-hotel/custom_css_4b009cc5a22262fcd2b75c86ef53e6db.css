@@ -1,0 +1,88 @@
+
+
+body {
+	color:#000000;
+	font-family: Times New Roman, Times, serif;	font-size: 14px;
+}
+
+
+#jm-allpage-bg {
+  background: url("../../templates/jm-tropical-hotel/images/bg_palms.png") no-repeat center top;
+}    
+    
+
+
+.jm-module .jm-title {
+    font-family: Times New Roman, Times, serif;    font-size: 19px;
+}
+
+
+.dj-main li a.dj-up_a,
+.dj-main li:hover ul.dj-submenu li a,
+.dj-main li.hover ul.dj-submenu li a {
+    font-family: Times New Roman, Times, serif;    font-size: 15px;
+}
+
+
+.page-header h2,
+h2.item-title,
+.cat-children > h3,
+.contact-category > h2,
+.weblink-category > h2,
+.newsfeed > h2,
+.newsfeed-category > h2,
+.tag-category h2,
+.djf_mod h3,
+.djc_title h3,
+.mod_djc_items h4 {
+    font-family: Times New Roman, Times, serif;    font-size: 22px;
+}
+
+
+
+h1#jm-logo,
+.category-list > h2,
+.page-header > h1,
+.blog > h2,
+.blog-featured > h1,
+h2.djc_title,
+h1.componentheading,
+h3.djc_related_title,
+.djslider .slide-desc-text .slide-title {
+    font-family: Times New Roman, Times, serif;}
+
+.nav-tabs.nav-stacked li,
+.nav-tabs.nav-stacked li a {
+    color:#000000;
+    font-family: Times New Roman, Times, serif;    font-size: 14px;
+}
+
+
+.container-fluid {
+	}
+
+
+	
+
+
+
+
+		.lcr.scheme3 #jm-content {
+	    margin-right: 239.25px; 
+	    margin-left: -1196.25px;
+	}
+		
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+					.lcr.scheme3 #jm-content {
+		    margin-right: 186px; 
+		    margin-left: -930px;
+		}
+								
+}
+	
+
+
+ 
